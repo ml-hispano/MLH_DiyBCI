@@ -20,7 +20,7 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 ## Lista de materiales
 
 - [Octopart (componentes)](https://octopart.com/bom-tool/86yT1jZ5)
-- [Descargar lista de materiales de OpenBCI Cyton](docs/openbci_cyton.csv)
+- [Descargar lista de materiales](openbci_cyton.csv)
 - [Diseño del circuito impreso de OpenBCI Cyton](https://github.com/OpenBCI/V3_Hardware_Design_Files/tree/master/OpenBCI%20Cyton%20Designs)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 
