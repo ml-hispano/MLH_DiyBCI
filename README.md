@@ -1,6 +1,6 @@
 # MLH_OpenBCI
 
-![MLHispano OpenBCI](mlh-neuro.png)
+![MLHispano OpenBCI](docs/mlh-neuro.png)
 
 Desarrollo del electroencefalógrafo OpenBCI con el mínimo coste.
 
