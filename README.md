@@ -16,7 +16,6 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 !!! Atención
    Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
 
-[Te gustaría colaborar?](https://github.com/JavierMoralesEstevez/MLH_OpenBCI/blob/master/docs/colaborar.md)
 
 ## Agradecimientos
 
