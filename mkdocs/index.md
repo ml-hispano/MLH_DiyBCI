@@ -1,3 +1,5 @@
+![MLHispano OpenBCI](mlh-neuro.png)
+
 # Introducción
 
 Este es nuestro cuaderno de bitácora navegando por las profundas aguas de la neurociencia. En él queremos recopilar toda la información relevante para el proyecto y documentar su desarrollo.
@@ -6,7 +8,6 @@ Se trata de conseguir un dispositivo [BCI](https://es.wikipedia.org/wiki/Interfa
 
 Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista de materiales para elaborar un dispositivo de características similares a los ofrecidos por OpenBCI para tratar de contener el precio del experimento. El proyecto se encuentra en fase inicial de desarrollo.
 
-![Navegación experimental](mlh-neuro.png)
 
 !!! Atención
    Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
