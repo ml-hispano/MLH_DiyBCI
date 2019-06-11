@@ -41,7 +41,7 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 <img src="docs/WiFiShield.jpg" width="250">
 </p>
 WiFi Shield permite omitir fácilmente los puertos serie llenos de latencia y las conexiones Bluetooth de bajo rango. Además, Wifi Shield te permite transmitir más rápido y más lejos que con el hardware predeterminado basado en Bluetooth.
-Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest).
+Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
 
 - Utilizar PICKit3 para programar el hex del cargador de arranque en el PIC32 con MPLAB IPE a través de los encabezados.
 - Usar un adaptador FTDI (velocidad en baudios: 115,200 b/s) para programar el firmware de Cyton en el PIC32 con Arduino IDE soldando temporalmente los pads 3 (RXD) y 4 (TXD) de donde debería haber estado el RFDuino .
