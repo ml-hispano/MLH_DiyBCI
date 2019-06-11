@@ -2,6 +2,7 @@
 
 <p align="center">
 <img src="docs/mlh-neuro.png" >
+
 Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
 </p>
 
