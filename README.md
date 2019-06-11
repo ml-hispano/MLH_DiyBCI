@@ -7,11 +7,11 @@
 Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
 
 
-# Introducción
+# <a name="introduccion" style="text-decoration:none; color:black;">Introducción</a>
 
 Este es nuestro cuaderno de bitácora navegando por las profundas aguas de la neurociencia. En él queremos recopilar toda la información relevante para el proyecto y documentar su desarrollo.
 
-Se trata de conseguir un dispositivo [BCI](https://es.wikipedia.org/wiki/Interfaz_cerebro-computadora) a precio asequible, capaz de registrar las ondas cerebrales mediante [EEG](https://es.wikipedia.org/wiki/Electroencefalograf%C3%ADa) de un individuo, que servirá como punto de partida para que cualquiera de la comunidad de **MLHispano** pueda experimentar y desarrollar sus propios módelos de machine learning a partir de los datos obtenidos.
+Se trata de conseguir un dispositivo [BCI](https://es.wikipedia.org/wiki/Interfaz_cerebro-computadora) a precio asequible, capaz de registrar las ondas cerebrales mediante [EEG](https://es.wikipedia.org/wiki/Electroencefalograf%C3%ADa) de un individuo, que servirá como punto de partida para que cualquiera de la comunidad de **[MLHispano](https://bit.ly/2Oqingj)** pueda experimentar y desarrollar sus propios módelos de machine learning a partir de los datos obtenidos.
 
 Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de materiales para elaborar un dispositivo de características idénticas al ofrecido por OpenBCI pero tratando de contener el precio del dispositivo. Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
@@ -19,12 +19,19 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 <img src="docs/Cyton.jpg" width="250" >
 </p>
 
-! Atención !
-   Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
+! Atención ! Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
 
 
+## Índice
 
-## Línea de tiempo
+###### <a href="#ml-lineadetiempo" >Línea de tiempo</a>
+###### <a href="#ml-materiales" >Lista de materiales y documentación</a>
+###### <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
+###### <a href="#ml-recursos" >Recursos adicionales</a>
+###### <a href="#ml-agradecimientos" >Agradecimientos</a>
+
+
+## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
 
 - junio 2019:
 	- Buscar, recopilar y documentar todo sobre OpenBCI
@@ -36,16 +43,17 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 	- Proponer proyecto conjunto en MLHispano
 
 
-## Lista de materiales y documentación
+## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 - [Octopart (componentes)](https://octopart.com/bom-tool/86yT1jZ5)
 - [Descargar lista de materiales](docs/openbci_cyton.csv)
 - [Diseño del circuito impreso de OpenBCI Cyton](https://github.com/OpenBCI/V3_Hardware_Design_Files/tree/master/OpenBCI%20Cyton%20Designs)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
-- [Documentación](https://docs.openbci.com/Getting%20Started/00-Welcome)
+- [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
+- [Documentación de Wifi Shield](https://github.com/OpenBCI/OpenBCI_Wifi_Shield)
 
 
-## Instalación del firmware con Wifi Shield (sin Bluetooth)
+## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
 <p align="center">
 <img src="docs/WiFiShield.jpg" width="250">
 </p>
@@ -63,14 +71,15 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 - Con el WiFi Shield montado en la placa Cyton y el WiFi Shield conectado a la alimentación externa (SW4: on), ambas placas están encendidas y todos los LED azules (WiFi Shield: D2, D3, D4 y Cyton: D1) permanecen encendidos. Usando una fuente de 5V, las dos tablas están dibujando 120 mA.
 
 
-## Recursos adicionales
+## <a name="ml-recursos" style="text-decoration:none; color:black;">Recursos adicionales</a>
 
 - La idea surgió, a partir de un hilo del canal [#banco_de_proyectos](https://ml-hispano.slack.com/archives/CF77D1BDH/p1555498224002300) de la comunidad de Slack [Machine Learning Hispano](https://bit.ly/2Oqingj) a partir de los comentarios sobre este artículo de Hackaday [Brain Hacking with Entrainment](https://hackaday.com/2019/04/08/brain-hacking-with-entrainment/)
 - Existe una campaña en indiegogo para un dispositivo con características similares a lo que buscamos, creo que el proyecto se encuentra en un punto importante de su desarrollo, en el que se decidirá si progresa o fracasa, a pesar de que resulta bastante caro me parece interesante por las ideas y conclusiones que podemos sacar, se llama [Mindset](https://www.indiegogo.com/projects/mindset-smart-headphones-that-improve-your-focus)
 - [Low-intensity ultrasound can change decision-making process in the brain](https://www.sciencedaily.com/releases/2019/04/190415113822.htm)
 
 
-## Agradecimientos
+## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
 - [OpenBCI](https://openbci.com/)
 - A todos los geeks que hacen posible este proyecto.
+
