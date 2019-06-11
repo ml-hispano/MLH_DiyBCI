@@ -38,7 +38,7 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 
 ## Instalación del firmware con Wifi Shield (sin Bluetooth)
 
-![WiFiShield](docs/WiFiShield.jpg = 250x)
+![WiFiShield | width = 250px](docs/WiFiShield.jpg)
 
 WiFi Shield permite omitir fácilmente los puertos serie llenos de latencia y las conexiones Bluetooth de bajo rango. Además, Wifi Shield te permite transmitir más rápido y más lejos que con el hardware predeterminado basado en Bluetooth.
 Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest).
