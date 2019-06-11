@@ -42,8 +42,8 @@ WiFi Shield permite omitir fácilmente los puertos serie llenos de latencia y la
 Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest).
 
 - Utilizar PICKit3 para programar el hex del cargador de arranque en el PIC32 con MPLAB IPE a través de los encabezados.
-- Usar un adaptador FTDI (velocidad en baudios: 115,200 b / s) para programar el firmware de Cyton en el PIC32 con Arduino IDE soldando temporalmente los pads 3 (RXD) y 4 (TXD) de donde debería haber estado el RFDuino .
-- Utilizar un adaptador FTDI (velocidad en baudios: 115.200 b / s) para programar el firmware "BoardWithWifi" de WiFi Shield en el ESP8266 con el terminal a través de esptool.
+- Usar un adaptador FTDI (velocidad en baudios: 115,200 b/s) para programar el firmware de Cyton en el PIC32 con Arduino IDE soldando temporalmente los pads 3 (RXD) y 4 (TXD) de donde debería haber estado el RFDuino .
+- Utilizar un adaptador FTDI (velocidad en baudios: 115.200 b/s) para programar el firmware "BoardWithWifi" de WiFi Shield en el ESP8266 con el terminal a través de esptool.
 - Conectar WiFi Shield a 5V de alimentación externa (SW4: on), encenderlo y cambiar su configuración para conectarse a la red inalámbrica de tu hogar.
 - Apagar el WiFi Shield y conectarlo a la placa Cyton.
 - Al conectar el WiFi Shield a 5V de alimentación externa (SW4: on), debería encendenderse y transmitir los datos a través de OpenBCI GUI.
