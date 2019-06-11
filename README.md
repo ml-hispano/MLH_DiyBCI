@@ -20,7 +20,7 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 ## Agradecimientos
 
 - [OpenBCI](https://openbci.com/)
-- Todos los colaboradores y todas las extensiones y librerías que hacen posible este proyecto.
+- Todos los colaboradores, extensiones y librerías que hacen posible este proyecto.
 
 ## Lista de materiales
 
