@@ -24,11 +24,11 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 ## Índice
 
-###### <a href="#ml-lineadetiempo" >Línea de tiempo</a>
-###### <a href="#ml-materiales" >Lista de materiales y documentación</a>
-###### <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
-###### <a href="#ml-recursos" >Recursos adicionales</a>
-###### <a href="#ml-agradecimientos" >Agradecimientos</a>
+- <a href="#ml-lineadetiempo" >Línea de tiempo</a>
+- <a href="#ml-materiales" >Lista de materiales y documentación</a>
+- <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
+- <a href="#ml-recursos" >Recursos adicionales</a>
+- <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
 ## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
@@ -45,7 +45,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
-- [Octopart (componentes)](https://octopart.com/bom-tool/86yT1jZ5)
+- [Lista de materiales para OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/86yT1jZ5)
 - [Descargar lista de materiales](docs/openbci_cyton.csv)
 - [Diseño del circuito impreso de OpenBCI Cyton](https://github.com/OpenBCI/V3_Hardware_Design_Files/tree/master/OpenBCI%20Cyton%20Designs)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
