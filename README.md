@@ -36,3 +36,15 @@ Una de las primeras cuestiones que surgió es la posibilidad de hacer una lista 
 - Existe una campaña en indiegogo para un dispositivo con características similares a lo que buscamos, creo que el proyecto se encuentra en un punto importante de su desarrollo, en el que se decidirá si progresa o fracasa, a pesar de que resulta bastante caro me parece interesante por las ideas y conclusiones que podemos sacar, se llama [Mindset](https://www.indiegogo.com/projects/mindset-smart-headphones-that-improve-your-focus)
 - [Low-intensity ultrasound can change decision-making process in the brain](https://www.sciencedaily.com/releases/2019/04/190415113822.htm)
 
+## Instalación del firmware con Wifi Shield (sin Bluetooth)
+
+WiFi Shield permite omitir fácilmente los puertos serie llenos de latencia y las conexiones Bluetooth de bajo rango. Además, Wifi Shield te permite transmitir más rápido y más lejos que con el hardware predeterminado basado en Bluetooth.
+Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest).
+
+- Utilizar PICKit3 para programar el hex del cargador de arranque en el PIC32 con MPLAB IPE a través de los encabezados.
+- Usar un adaptador FTDI (velocidad en baudios: 115,200 b / s) para programar el firmware de Cyton en el PIC32 con Arduino IDE soldando temporalmente los pads 3 (RXD) y 4 (TXD) de donde debería haber estado el RFDuino .
+- Utilizar un adaptador FTDI (velocidad en baudios: 115.200 b / s) para programar el firmware "BoardWithWifi" de WiFi Shield en el ESP8266 con el terminal a través de esptool.
+- Conectar WiFi Shield a 5V de alimentación externa (SW4: on), encenderlo y cambiar su configuración para conectarse a la red inalámbrica de tu hogar.
+- Apagar el WiFi Shield y conectarlo a la placa Cyton.
+- Al conectar el WiFi Shield a 5V de alimentación externa (SW4: on), debería encendenderse y transmitir los datos a través de OpenBCI GUI.
+- Con el WiFi Shield montado en la placa Cyton y el WiFi Shield conectado a la alimentación externa (SW4: on), ambas placas están encendidas y todos los LED azules (WiFi Shield: D2, D3, D4 y Cyton: D1) permanecen encendidos. Usando una fuente de 5V, las dos tablas están dibujando 120 mA.
