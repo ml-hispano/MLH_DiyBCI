@@ -51,6 +51,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 - [Diseño del circuito impreso de Wifi Shield](https://github.com/OpenBCI/OpenBCI_Wifi_Shield)
+- [ESP32 VS RFD77101](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/rfd77101%20vs%20esp32-solo-1.zip)
 
 
 ## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
