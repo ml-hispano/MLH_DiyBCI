@@ -46,7 +46,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 - [Lista de materiales para OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/86yT1jZ5)
-- [Descargar lista de materiales](docs/openbci_cyton.csv)
+- [Lista de materiales para OpenBCI Cyton (Descargar)](docs/openbci_cyton.csv)
 - [Diseño del circuito impreso de OpenBCI Cyton](https://github.com/OpenBCI/V3_Hardware_Design_Files/tree/master/OpenBCI%20Cyton%20Designs)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
