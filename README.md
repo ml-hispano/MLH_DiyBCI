@@ -19,7 +19,6 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 <img src="docs/Cyton.jpg" width="250" >
 </p>
 
-Actualmente a fecha de junio del 2019 nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y haciendo el circuito compatible con las FPGA.
 
 ! Atención ! Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
 
@@ -38,6 +37,7 @@ Actualmente a fecha de junio del 2019 nos encontramos rediseñando la placa Open
 
 - junio 2019:
 	- Buscar, recopilar y documentar todo sobre OpenBCI
+	- Actualmente nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y haciendo el circuito compatible con las FPGA.
 - julio 2019:
 	- Hacernos nuestras propias placas!
 - Agosto 2019:
