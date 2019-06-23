@@ -49,9 +49,9 @@ Actualmente a fecha de junio del 2019 nos encontramos rediseñando la placa Open
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 
-- [Proyecto MLH BCI Cyton en desarrollo](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH Cyton.zip)
-- [Lista de materiales de MLH BCI Cyton (Octopart)](https://octopart.com/bom-tool/Mq5D6Njh)
-- [Lista de materiales de MLH BCI Cyton](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_cyton BOM.csv)
+- [Proyecto MLH_BCI Cyton en desarrollo](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_Cyton.zip)
+- [Lista de materiales de MLH_BCI Cyton (Octopart)](https://octopart.com/bom-tool/Mq5D6Njh)
+- [Lista de materiales de MLH_BCI Cyton](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_cyton_BOM.csv)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 - [Diseño del circuito impreso de Wifi Shield](https://github.com/OpenBCI/OpenBCI_Wifi_Shield)
