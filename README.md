@@ -19,6 +19,8 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 <img src="docs/Cyton.jpg" width="250" >
 </p>
 
+Actualmente a fecha de junio del 2019 nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y haciendo el circuito compatible con las FPGA.
+
 ! Atención ! Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
 
 
@@ -29,6 +31,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
 - <a href="#ml-recursos" >Recursos adicionales</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
+- <a href="#ml-colaboradores" >Colaboradores</a>
 
 
 ## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
@@ -45,13 +48,13 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
-- [Lista de materiales para OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/86yT1jZ5)
-- [Lista de materiales para OpenBCI Cyton (Descargar)](docs/openbci_cyton.csv)
-- [Diseño del circuito impreso de OpenBCI Cyton](https://github.com/OpenBCI/V3_Hardware_Design_Files/tree/master/OpenBCI%20Cyton%20Designs)
+
+- [Proyecto MLH_BCI Cyton en desarrollo](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH Cyton.zip)
+- [Lista de materiales de MLH_BCI Cyton (Octopart)](https://octopart.com/bom-tool/Mq5D6Njh)
+- [Lista de materiales de MLH_BCI Cyton](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_cyton BOM.csv)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 - [Diseño del circuito impreso de Wifi Shield](https://github.com/OpenBCI/OpenBCI_Wifi_Shield)
-- [ESP32 VS RFD77101](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/rfd77101%20vs%20esp32-solo-1.zip)
 
 
 ## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
@@ -80,8 +83,16 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 - [Low-intensity ultrasound can change decision-making process in the brain](https://www.sciencedaily.com/releases/2019/04/190415113822.htm)
 
 
+## <a name="ml-colaboradores" style="text-decoration:none; color:black;">Colaboradores</a>
+
+- Javier Morales
+- Eloy Lopez
+- Carlos Correa
+
+
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
 - [OpenBCI](https://openbci.com/)
 - A todos los geeks que hacen posible este proyecto.
+- A todos los que forman parte de la comunidad MLHispano por su apoyo y en especial a DotCSV.
 
