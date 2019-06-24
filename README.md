@@ -87,8 +87,6 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 
 - Javier Morales
 - Eloy Lopez
-- Carlos Correa
-
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
