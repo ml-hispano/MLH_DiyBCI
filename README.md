@@ -37,7 +37,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 - junio 2019:
 	- Buscar, recopilar y documentar todo sobre OpenBCI
-	- Actualmente nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y haciendo el circuito compatible con las FPGA.
+	- Actualmente nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD, añadiendo salida micro-usb y haciendo el circuito compatible con las FPGA.
 - julio 2019:
 	- Hacernos nuestras propias placas!
 - Agosto 2019:
@@ -49,9 +49,9 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 
-- [Proyecto MLH_BCI Cyton en desarrollo](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_Cyton.zip)
-- [Lista de materiales de MLH_BCI Cyton (Octopart)](https://octopart.com/bom-tool/Mq5D6Njh)
-- [Lista de materiales de MLH_BCI Cyton](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_cyton_BOM.csv)
+- [Proyecto MLH_OpenBCI Cyton en desarrollo](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_Cyton.zip)
+- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/Mq5D6Njh)
+- [Lista de materiales de MLH_OpenBCI Cyton](https://github.com/ml-hispano/MLH_OpenBCI/blob/master/docs/MLH_cyton_BOM.csv)
 - [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 - [Diseño del circuito impreso de Wifi Shield](https://github.com/OpenBCI/OpenBCI_Wifi_Shield)
