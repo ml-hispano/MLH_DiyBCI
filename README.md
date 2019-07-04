@@ -1,7 +1,7 @@
 # MLH_OpenBCI
 
 <p align="center">
-<img src="docs/mlh-neuro.png" >
+<img src="docs/mlh-openbci.png" >
 </p>
 
 Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
@@ -29,17 +29,17 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - <a href="#ml-materiales" >Lista de materiales y documentación</a>
 - <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
 - <a href="#ml-recursos" >Recursos adicionales</a>
-- <a href="#ml-agradecimientos" >Agradecimientos</a>
 - <a href="#ml-colaboradores" >Colaboradores</a>
+- <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
 ## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
 
 - junio 2019:
 	- Buscar, recopilar y documentar todo sobre OpenBCI
-	- Actualmente nos encontramos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD, añadiendo salida micro-usb y haciendo el circuito compatible con las FPGA.
+	- Hemos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y añadiendo micro-usb al diseño del circuito.
 - julio 2019:
-	- Hacernos nuestras propias placas!
+	- Mandar a fabricar nuestras placas.
 - Agosto 2019:
 	- Lluvia de ideas
 - Septiembre 2019:
@@ -87,6 +87,7 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 
 - Javier Morales
 - Eloy Lopez
+- Samuel Aguilar
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
