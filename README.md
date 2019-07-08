@@ -1,7 +1,7 @@
 # MLH_OpenBCI
 
 <p align="center">
-<img src="docs/mlh-openbci-pixel.png" >
+<img src="docs/mlh-openbci.png" width="920" >
 </p>
 
 Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
@@ -51,7 +51,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 - Proyecto MLH_OpenBCI Cyton en desarrollo (Próximamente)
 - [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/Gs7QsMdq)
-- [Interfaz gráfica](https://github.com/OpenBCI/OpenBCI_GUI)
+- [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
 
