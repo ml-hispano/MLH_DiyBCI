@@ -49,7 +49,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 
 - Proyecto MLH_OpenBCI Cyton en desarrollo (Próximamente)
-- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/0R1HF8ar)
+- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/ig0WfQWC)
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
