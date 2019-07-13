@@ -29,28 +29,27 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - <a href="#ml-materiales" >Lista de materiales y documentación</a>
 - <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
 - <a href="#ml-recursos" >Recursos adicionales</a>
-- <a href="#ml-colaboradores" >Colaboradores</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
 ## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
 
 - junio 2019:
-	- Buscar, recopilar y documentar todo sobre OpenBCI
-	- Hemos rediseñando la placa OpenBCI Cyton, actualizando el módulo wifi, tarjeta MicroSD y añadiendo micro-usb al diseño del circuito.
+	- Hemos rediseñando la placa OpenBCI Cyton + WifiShield, actualizando los componentes que se encontraban obsoletos y añadiendo alimentación microUSB y tarjeta MicroSD.
 - julio 2019:
-	- Mandar a fabricar nuestras placas.
+	- Vamos a fabricar nuestras placas.
+	- Ya tenemos el diseño del circuito y de la PCB, en breve podréis encontrarlo aquí.
 - Agosto 2019:
 	- Lluvia de ideas
 - Septiembre 2019:
-	- Proponer proyecto conjunto en MLHispano
+	- Proponer proyecto conjunto en MLHispano ([www.machinelearninghispano.com](https://www.machinelearninghispano.com)).
 
 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 
 - Proyecto MLH_OpenBCI Cyton en desarrollo (Próximamente)
-- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/Gs7QsMdq)
+- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/0R1HF8ar)
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
@@ -80,12 +79,6 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 - Existe una campaña en indiegogo para un dispositivo con características similares a lo que buscamos, creo que el proyecto se encuentra en un punto importante de su desarrollo, en el que se decidirá si progresa o fracasa, a pesar de que resulta bastante caro me parece interesante por las ideas y conclusiones que podemos sacar, se llama [Mindset](https://www.indiegogo.com/projects/mindset-smart-headphones-that-improve-your-focus)
 - [Low-intensity ultrasound can change decision-making process in the brain](https://www.sciencedaily.com/releases/2019/04/190415113822.htm)
 
-
-## <a name="ml-colaboradores" style="text-decoration:none; color:black;">Colaboradores</a>
-
-- Javier Morales
-- Eloy Lopez
-- Samuel Aguilar
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
