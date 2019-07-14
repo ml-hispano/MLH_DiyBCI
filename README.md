@@ -1,4 +1,4 @@
-# MLH_OpenBCI
+# MLH OpenBCI
 
 <p align="center">
 <img src="docs/mlh-openbci.png" width="920" >
@@ -13,7 +13,8 @@ Este es nuestro cuaderno de bitácora navegando por las profundas aguas de la ne
 
 Se trata de conseguir un dispositivo [BCI](https://es.wikipedia.org/wiki/Interfaz_cerebro-computadora) a precio asequible, capaz de registrar las ondas cerebrales mediante [EEG](https://es.wikipedia.org/wiki/Electroencefalograf%C3%ADa) de un individuo, que servirá como punto de partida para que cualquiera de la comunidad de **[MLHispano](https://bit.ly/2Oqingj)** pueda experimentar y desarrollar sus propios módelos de machine learning a partir de los datos obtenidos.
 
-Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de materiales para elaborar un dispositivo de características idénticas al ofrecido por OpenBCI pero tratando de contener el precio del dispositivo. Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
+Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de materiales para elaborar un dispositivo de características idénticas al ofrecido por OpenBCI pero tratando de contener el precio del dispositivo.
+Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
 <p align="center">
 <img src="docs/Cyton.jpg" width="250" >
@@ -35,12 +36,11 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - junio 2019:
 	- Hemos rediseñando la placa OpenBCI Cyton + WifiShield, actualizando los componentes que se encontraban obsoletos y añadiendo alimentación microUSB y tarjeta MicroSD.
 - julio 2019:
-	- Vamos a fabricar nuestras placas.
-	- Ya tenemos el diseño del circuito y de la PCB, en breve podréis encontrarlo aquí.
+	- Ya tenemos el diseño del circuito y de la PCB, en breve podréis encontrarlo aquí... Vamos a fabricar nuestras placas!
 - Agosto 2019:
 	- Lluvia de ideas
 - Septiembre 2019:
-	- Proponer proyecto conjunto en MLHispano ([www.machinelearninghispano.com](https://www.machinelearninghispano.com)).
+	- Proponer proyecto conjunto en [MLHispano](https://www.machinelearninghispano.com).
 
 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
@@ -56,7 +56,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 Os dejo una muestra del diseño de la placa:
 <p align="center">
-<img src="docs/placa-mlhopenbci.JPG" width="700">
+<img src="docs/placa-mlhopenbci.JPG" width="750">
 </p>
 
 
@@ -82,13 +82,10 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 ## <a name="ml-recursos" style="text-decoration:none; color:black;">Recursos adicionales</a>
 
 - La idea surgió, a partir de un hilo del canal [#banco_de_proyectos](https://ml-hispano.slack.com/archives/CF77D1BDH/p1555498224002300) de la comunidad de Slack [Machine Learning Hispano](https://bit.ly/2Oqingj) a partir de los comentarios sobre este artículo de Hackaday [Brain Hacking with Entrainment](https://hackaday.com/2019/04/08/brain-hacking-with-entrainment/)
-- Existe una campaña en indiegogo para un dispositivo con características similares a lo que buscamos, creo que el proyecto se encuentra en un punto importante de su desarrollo, en el que se decidirá si progresa o fracasa, a pesar de que resulta bastante caro me parece interesante por las ideas y conclusiones que podemos sacar, se llama [Mindset](https://www.indiegogo.com/projects/mindset-smart-headphones-that-improve-your-focus)
-- [Low-intensity ultrasound can change decision-making process in the brain](https://www.sciencedaily.com/releases/2019/04/190415113822.htm)
 
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
-- [OpenBCI](https://openbci.com/)
-- A todos los geeks que hacen posible este proyecto.
+- A [OpenBCI](https://openbci.com/)
 - A todos los que forman parte de la comunidad MLHispano por su apoyo y en especial a DotCSV.
 
