@@ -20,9 +20,6 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 </p>
 
 
-! Atención ! Este es un proyecto amateur de aprendizaje, no un proyecto científico riguroso, podría contener errores, contribuye y ayudanos a resolverlos.
-
-
 ## Índice
 
 - <a href="#ml-lineadetiempo" >Línea de tiempo</a>
@@ -55,7 +52,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
 
-# <a name="ml-diseñoplaca" style="text-decoration:none; color:black;">Diseño de la placa MLH OpenBCI</a>
+## <a name="ml-diseñoplaca" style="text-decoration:none; color:black;">Diseño de la placa MLH OpenBCI</a>
 
 Os dejo una muestra del diseño de la placa:
 <p align="center">
