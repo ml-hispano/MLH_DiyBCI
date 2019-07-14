@@ -27,6 +27,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 - <a href="#ml-lineadetiempo" >Línea de tiempo</a>
 - <a href="#ml-materiales" >Lista de materiales y documentación</a>
+- <a href="#ml-diseñoplaca" >Diseño de la placa MLH OpenBCI</a>
 - <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
 - <a href="#ml-recursos" >Recursos adicionales</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
@@ -48,10 +49,18 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 ## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 
-- Proyecto MLH_OpenBCI Cyton en desarrollo (Próximamente)
+- Proyecto MLH_OpenBCI (Próximamente subiremos los archivos)
 - [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/ig0WfQWC)
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
+
+
+# <a name="introduccion" style="text-decoration:none; color:black;">Diseño de la placa MLH OpenBCI</a>
+
+Os dejo una muestra del diseño de la placa:
+<p align="center">
+<img src="docs/placa-mlhopenbci.jpg" width="700">
+</p>
 
 
 ## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
