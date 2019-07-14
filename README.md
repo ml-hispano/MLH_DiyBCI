@@ -59,7 +59,7 @@ Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de 
 
 Os dejo una muestra del diseño de la placa:
 <p align="center">
-<img src="docs/placa-mlhopenbci.jpg" width="700">
+<img src="docs/placa-mlhopenbci.JPG" width="700">
 </p>
 
 
