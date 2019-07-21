@@ -54,9 +54,10 @@ Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
 ## <a name="ml-diseñoplaca" style="text-decoration:none; color:black;">Diseño de la placa MLH OpenBCI</a>
 
-Os dejo una muestra del diseño de la placa:
+Os dejo una muestra del diseño de la placa v1:
 <p align="center">
-<img src="docs/placa-mlhopenbci.JPG" width="750">
+<img src="docs/openbci-top.png" width="450">
+<img src="docs/openbci-bottom.png" width="450">
 </p>
 
 
