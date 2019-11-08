@@ -1,7 +1,7 @@
 # MLH OpenBCI
 
 <p align="center">
-<img src="docs/mlh-openbci.png" width="920" >
+<img src="docs/ml-hispano.png" width="920" >
 </p>
 
 Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
