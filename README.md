@@ -23,42 +23,18 @@ Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
 ## Índice
 
-- <a href="#ml-lineadetiempo" >Línea de tiempo</a>
-- <a href="#ml-materiales" >Lista de materiales y documentación</a>
-- <a href="#ml-diseñoplaca" >Diseño de la placa MLH OpenBCI</a>
+- <a href="#ml-documentacion" >Documentación</a>
 - <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
-- <a href="#ml-recursos" >Recursos adicionales</a>
+- <a href="#ml-recursos" >Historia</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
-## <a name="ml-lineadetiempo" style="text-decoration:none; color:black;">Línea de tiempo</a>
-
-- junio 2019:
-	- Hemos rediseñando la placa OpenBCI Cyton + WifiShield, actualizando los componentes que se encontraban obsoletos y añadiendo alimentación microUSB y tarjeta MicroSD.
-- julio 2019:
-	- Ya tenemos el diseño del circuito y de la PCB, en breve podréis encontrarlo aquí... Vamos a fabricar nuestras placas!
-- Agosto 2019:
-	- Lluvia de ideas
-- Septiembre 2019:
-	- Proponer proyecto conjunto en [MLHispano](https://www.machinelearninghispano.com).
+## <a name="ml-documentacion" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
 
 
-## <a name="ml-materiales" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
-
-
-- Proyecto MLH_OpenBCI (Próximamente subiremos los archivos)
-- [Lista de materiales de MLH_OpenBCI Cyton (Octopart)](https://octopart.com/bom-tool/ig0WfQWC)
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
-
-## <a name="ml-diseñoplaca" style="text-decoration:none; color:black;">Diseño de la placa MLH OpenBCI</a>
-
-Os dejo una muestra del diseño de la placa v1:
-<p align="center">
-<img src="docs/openbci-top.png" width="450">
-<img src="docs/openbci-bottom.png" width="450">
-</p>
 
 
 ## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
@@ -80,9 +56,9 @@ Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/disc
 - Con el WiFi Shield montado en la placa Cyton y el WiFi Shield conectado a la alimentación externa (SW4: on), ambas placas están encendidas y todos los LED azules (WiFi Shield: D2, D3, D4 y Cyton: D1) permanecen encendidos. Usando una fuente de 5V, las dos tablas están dibujando 120 mA.
 
 
-## <a name="ml-recursos" style="text-decoration:none; color:black;">Recursos adicionales</a>
+## <a name="ml-recursos" style="text-decoration:none; color:black;">Historia</a>
 
-- La idea surgió, a partir de un hilo del canal [#banco_de_proyectos](https://ml-hispano.slack.com/archives/CF77D1BDH/p1555498224002300) de la comunidad de Slack [Machine Learning Hispano](https://bit.ly/2Oqingj) a partir de los comentarios sobre este artículo de Hackaday [Brain Hacking with Entrainment](https://hackaday.com/2019/04/08/brain-hacking-with-entrainment/)
+- La idea surgió, a partir de un hilo en un chat de la comunidad de Slack [Machine Learning Hispano](https://bit.ly/2Oqingj)
 
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
