@@ -1,4 +1,4 @@
-# MLH OpenBCI
+# MLH DiyBCI
 
 <p align="center">
 <img src="docs/ml-hispano.png" width="920" >
