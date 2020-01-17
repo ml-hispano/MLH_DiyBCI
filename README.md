@@ -37,7 +37,7 @@ A la izquierda el openbci y a la derecha el wifishield.
 - [Bootloader del pic32](/docs/firmwares y bootloader/)
 - [Firmware del pic32](/docs/firmwares y bootloader/)
 - [Firmware del esp-12E (wifishield)](/docs/firmwares y bootloader/)
-- [Esquemas en Eagle de openbci]()
+
 
 
 ## <a name="ml-firmwares" style="text-decoration:none; color:black;">Instalación de los firmwares sin RFduino (con WifiShield)</a>
