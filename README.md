@@ -4,7 +4,7 @@
 <img src="docs/mlhbci.jpg" width="920" >
 </p>
 
-Desarrollo de un electroencefalógrafo EEG, basado en **openBCI** para aplicaciones de **Machine Learning**.
+Desarrollo de un electroencefalógrama EEG, basado en **openBCI** para aplicaciones de **Machine Learning**.
 
 
 # <a name="introduccion" style="text-decoration:none; color:black;">Introducción</a>
