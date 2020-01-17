@@ -47,7 +47,7 @@ Un individuo con el alias "alwayswearshats" dijo conseguir haber logrado hacer f
 https://youtu.be/NXZVb7ENISs
 [fuente](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
 
-#####Los pasos a seguir serían los siguientes:
+##### Los pasos a seguir serían los siguientes:
 
 - Es importante no acoplar los circuitos antes de programar sus firmwares.
 
