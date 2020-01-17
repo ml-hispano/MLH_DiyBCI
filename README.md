@@ -1,31 +1,29 @@
-# MLH DiyBCI
+# MLH_BCI
 
 <p align="center">
-<img src="docs/ml-hispano.png" width="920" >
+<img src="docs/mlhbci.jpg" width="920" >
 </p>
 
-Desarrollo del electroencefalógrafo **OpenBCI** con el mínimo coste para aplicaciones de **machine learning**.
+Desarrollo de un electroencefalógrafo EEG, basado en **openBCI** para aplicaciones de **Machine Learning**.
 
 
 # <a name="introduccion" style="text-decoration:none; color:black;">Introducción</a>
 
-Este es nuestro cuaderno de bitácora navegando por las profundas aguas de la neurociencia. En él queremos recopilar toda la información relevante para el proyecto y documentar su desarrollo.
+Este es un proyecto de **[MLHispano](https://bit.ly/2Oqingj)**, aquí encontrarás toda la información necesaria para construir tu EEG: esquemas, Gerber files, etc.
 
-Se trata de conseguir un dispositivo [BCI](https://es.wikipedia.org/wiki/Interfaz_cerebro-computadora) a precio asequible, capaz de registrar las ondas cerebrales mediante [EEG](https://es.wikipedia.org/wiki/Electroencefalograf%C3%ADa) de un individuo, que servirá como punto de partida para que cualquiera de la comunidad de **[MLHispano](https://bit.ly/2Oqingj)** pueda experimentar y desarrollar sus propios módelos de machine learning a partir de los datos obtenidos.
+Este proyecto pretende ser un punto de partida donde cualquier individuo de la comunidad de pueda obtener un EEG y desarrollar su BCI a partir de sus propios módelos de machine learning.
 
-Una de las acuciantes ideas que surgió es la posibilidad de hacer una lista de materiales para elaborar un dispositivo de características idénticas al ofrecido por OpenBCI pero tratando de contener el precio del dispositivo.
-Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
 <p align="center">
 <img src="docs/Cyton.jpg" width="250" >
+esto es un OpenBCI
 </p>
 
 
 ## Índice
 
-- <a href="#ml-documentacion" >Documentación</a>
-- <a href="#ml-wifishield" >Instalación del firmware con Wifi Shield</a>
-- <a href="#ml-recursos" >Historia</a>
+- <a href="#ml-documentacion" >Esquemas, Gerber files, etc.</a>
+- <a href="#ml-wifishield" >Instalación de los firmwares sin RFduino</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
@@ -37,28 +35,32 @@ Te recomendamos que eches un vistazo a la línea de tiempo del proyecto.
 
 
 
-## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación del firmware con Wifi Shield (sin Bluetooth)</a>
+## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación de los firmwares sin RFduino (con WifiShield)</a>
 <p align="center">
 <img src="docs/WiFiShield.jpg" width="250">
+Esto es un WifiShield
 </p>
 
-WiFi Shield permite omitir fácilmente los puertos serie llenos de latencia y las conexiones Bluetooth de bajo rango. Además, Wifi Shield te permite transmitir más rápido y más lejos que con el hardware predeterminado basado en Bluetooth.
+El circuito original utilizaba un módulo bluetooth (BLE) **RFduino**, que se encuentra **obsoleto**. Utilizaban un protocolo llamado [Gazell Nordic](https://0w0.pw/nRFGo_SDK/group__nordic__gzll.html), mucho más optimo que el utilizado por el bluetooth de la época. Hasta que llegó WifiShield aportando wifi al sistema.
 
-Información extraida de este [hilo](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
+**WiFiShield** permite omitir fácilmente los puertos serie llenos de latencia y las conexiones Bluetooth de bajo rango. Además, además te permite transmitir más rápido y más lejos.
 
-- Componentes y conectores soldados a WiFi PCB y Cyton (sin RFDuino IC).
-- Utilizar PICKit3 para programar el hex del cargador de arranque en el PIC32 con MPLAB IPE a través de los encabezados.
-- Usar un adaptador FTDI (velocidad en baudios: 115,200 b/s) para programar el firmware de Cyton en el PIC32 con Arduino IDE soldando temporalmente los pads 3 (RXD) y 4 (TXD) de donde debería haber estado el RFDuino .
-- Utilizar un adaptador FTDI (velocidad en baudios: 115.200 b/s) para programar el firmware "BoardWithWifi" de WiFi Shield en el ESP8266 con el terminal a través de esptool.
-- Conectar WiFi Shield a 5V de alimentación externa (SW4: on), encenderlo y cambiar su configuración para conectarse a la red inalámbrica de tu hogar.
-- Apagar el WiFi Shield y conectarlo a la placa Cyton.
-- Al conectar el WiFi Shield a 5V de alimentación externa (SW4: on), debería encendenderse y transmitir los datos a través de OpenBCI GUI.
-- Con el WiFi Shield montado en la placa Cyton y el WiFi Shield conectado a la alimentación externa (SW4: on), ambas placas están encendidas y todos los LED azules (WiFi Shield: D2, D3, D4 y Cyton: D1) permanecen encendidos. Usando una fuente de 5V, las dos tablas están dibujando 120 mA.
+Un individuo con el alias "alwayswearshats" dijo conseguir haber logrado hacer funcionar el openbci con el wifishield sin necesidad de RFduino.
+https://youtu.be/NXZVb7ENISs
+[fuente](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
+
+#####Los pasos a seguir serían los siguientes:
+
+- Es importante no acoplar los circuitos antes de programar sus firmwares.
+
+- **Atención** antes de intentar programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**). El procedimiento para subir el bootloader en el pic32 es idéntico que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader y después el firmware, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán MCLR, VDD target (Ojo con este pin, deberás conectarlo a 3V3, no a DVDD), Ground, PGD y PGC. Todos están incluidos en el circuito y todos son necesarios.
+
+- Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND no suelen ser necesarios. Al contrario de lo que sí sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera.
 
 
-## <a name="ml-recursos" style="text-decoration:none; color:black;">Historia</a>
+- Una vez terminado y habiendo conectado el dispositivo deberás conectarte a la red con nombre "OpenBCI-XXXX" y desde el navegador acceder a 192.168.4.1 allí podrás agregar la contraseña de la wifi de tu hogar. Entonces podrás ejecutar la aplicación openBCI-gui que debería detectar tu circuito. He mantenido el nombre "OpenBCI-XXXX" para poder utilizar el programa creado por ellos.
 
-- La idea surgió, a partir de un hilo en un chat de la comunidad de Slack [Machine Learning Hispano](https://bit.ly/2Oqingj)
+
 
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
