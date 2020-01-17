@@ -16,7 +16,6 @@ Este proyecto pretende ser un punto de partida donde cualquier individuo de la c
 
 <p align="center">
 <img src="docs/Cyton.jpg" width="250" >
-esto es un OpenBCI
 </p>
 
 
@@ -38,7 +37,6 @@ esto es un OpenBCI
 ## <a name="ml-wifishield" style="text-decoration:none; color:black;">Instalación de los firmwares sin RFduino (con WifiShield)</a>
 <p align="center">
 <img src="docs/WiFiShield.jpg" width="250">
-Esto es un WifiShield
 </p>
 
 El circuito original utilizaba un módulo bluetooth (BLE) **RFduino**, que se encuentra **obsoleto**. Utilizaban un protocolo llamado [Gazell Nordic](https://0w0.pw/nRFGo_SDK/group__nordic__gzll.html), mucho más optimo que el utilizado por el bluetooth de la época. Hasta que llegó WifiShield aportando wifi al sistema.
