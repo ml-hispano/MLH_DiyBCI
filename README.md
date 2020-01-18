@@ -37,6 +37,7 @@ A la izquierda el openbci y a la derecha el wifishield.
 - [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.bootloader.pic32.hex)
 - [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultBoard.pic32.hex)
 - [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultWifiShield.2.0.5.bin)
+- [Proyectos del MLH_BCI (by Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/proyecto%20en%20Eagle/projects.zip)
 
 
 
@@ -50,7 +51,7 @@ Un individuo con el alias "alwayswearshats" dijo haber logrado hacer funcionar e
 https://youtu.be/NXZVb7ENISs
 [fuente](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
 
-##### Los pasos a seguir serían los siguientes:
+#### Los pasos a seguir serían los siguientes:
 
 - Es importante no acoplar los circuitos antes de programar sus firmwares.
 
@@ -64,7 +65,7 @@ https://youtu.be/NXZVb7ENISs
 
 ## <a name="ml-dfrobot" style="text-decoration:none; color:black;">De RFduino a DFRobot (TEL0120)</a>
 
-Como hemos dicho, el RFduino está obsoleto, no lo vas a poder encontrar, así que he buscado una solucion alternativa si deseas utilizar el bluetooth. La solución viene de la mano de DFRobot, que vende un [módulo BLE 4.1](https://www.dfrobot.com/product-1647.html?search=tel0120&description=true) con el mismo procesador que utilizaba el RFduino, el arm cortex M0. Por lo que el firmware debería funcionar.
+Como hemos dicho, el RFduino está obsoleto, no lo vas a poder encontrar, así que he buscado una solucion alternativa si deseas utilizar el bluetooth. La solución viene de la mano de DFRobot, que vende un [módulo BLE 4.1](https://www.dfrobot.com/product-1647.html?search=tel0120&description=true) con el mismo procesador que utilizaba  RFduino, el ARM Cortex M0. Por lo que el firmware debería funcionar.
 
 
 
@@ -72,4 +73,3 @@ Como hemos dicho, el RFduino está obsoleto, no lo vas a poder encontrar, así q
 
 - A [OpenBCI](https://openbci.com/)
 - A todos los que forman parte de la comunidad MLHispano por su apoyo y en especial a DotCSV.
-
