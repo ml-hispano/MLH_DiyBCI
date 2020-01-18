@@ -37,7 +37,7 @@ A la izquierda el openbci y a la derecha el wifishield.
 - [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.bootloader.pic32.hex)
 - [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultBoard.pic32.hex)
 - [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultWifiShield.2.0.5.bin)
-- [Proyectos del MLH_BCI (by Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/proyecto%20en%20Eagle/projects.zip)
+- [Proyecto del MLH_BCI v1 (by Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/proyecto%20en%20Eagle/projects.zip), puedes participar activamente desde [Drive](https://drive.google.com/drive/folders/1YpwGCYouReEstqHGXn4jKrlaMIpSWDeF?usp=sharing).
 
 
 
@@ -57,7 +57,7 @@ https://youtu.be/NXZVb7ENISs
 
 - **Atención** antes de programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**). El procedimiento para subir el bootloader en el pic32 es idéntico que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader y después el firmware, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán MCLR, VDD target (Ojo con este pin, deberás conectarlo a 3V3, no a DVDD), Ground, PGD y PGC. Todos los pines están incluidos en el circuito y todos son necesarios.
 
-- Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND no suelen ser necesarios. Al contrario de lo que sí sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera.
+- Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND no suelen ser necesarios. Al contrario de lo que sí sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera. Deberás conectar **DTR -> GPIO0** | **RTS -> RESET** | **TXD -> RXD** | **RXD -> TXD** para subir el firmware. [Fuente](https://github.com/espressif/esptool/wiki/ESP8266-Boot-Mode-Selection)
 
 
 - Una vez terminado y habiendo conectado el dispositivo deberás conectarte a la red con nombre "OpenBCI-XXXX" y desde el navegador acceder a 192.168.4.1 allí podrás agregar la contraseña de la wifi de tu hogar. Entonces podrás ejecutar la aplicación openBCI-gui que debería detectar tu circuito. He mantenido el nombre "OpenBCI-XXXX" para poder utilizar el programa creado por ellos.
