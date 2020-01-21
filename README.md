@@ -35,9 +35,10 @@ A la izquierda el openbci y a la derecha el wifishield.
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 - [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.bootloader.pic32.hex)
-- [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultBoard.pic32.hex)
-- [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/DefaultWifiShield.2.0.5.bin)
-- [Proyecto del MLH_BCI v3 (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/proyecto%20en%20Eagle/MLHBCI_javier_morales.zip), puedes participar activamente desde [Drive](https://drive.google.com/drive/folders/1YpwGCYouReEstqHGXn4jKrlaMIpSWDeF?usp=sharing).
+- [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultBoard.pic32.hex)
+- [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultWifiShield.2.0.5.bin)
+- [Proyecto del MLH_BCI (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Proyecto%20en%20Eagle/MLH_BCI.zip)
+- [Gerber files de MLH_BCI (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Gerber%20files/Gerber%20MLH_BCI.zip)
 
 
 
