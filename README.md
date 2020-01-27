@@ -74,7 +74,7 @@ Como hemos dicho, el RFduino está obsoleto, no lo vas a poder encontrar, así q
 
 Esto es solo un ejemplo de que debes hacer para mandar a fabricar el circuito, en este caso con [pcbway.es](https://www.pcbway.es/setinvite.aspx?inviteid=292190)
 
-1. Dirígete a la página de pcbway, escoge protitpos pcb, añade las dimensiones de la placa (95 x 60), selecciona 2 capas y pulsa "Cotizar".
+1. Dirígete a la página de pcbway, añade las dimensiones de la placa (95 x 60), selecciona 2 capas y pulsa "Cotizar".
 
 <p align="center">
 <img src="docs/pcbway1.PNG" width="700" >
