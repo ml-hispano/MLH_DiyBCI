@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-01-21T14:38:46Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.99,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "wifi"
+        },
+        "Owner": "Javier Morales <javiermoralesestevez@gmail.com>",
+        "Size": {
+            "X": 51.48435,
+            "Y": 59.98355
+        }
+    }
+}
