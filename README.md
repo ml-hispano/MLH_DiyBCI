@@ -26,6 +26,7 @@ A la izquierda el openbci y a la derecha el wifishield.
 - <a href="#ml-documentacion" >Esquemas, Gerber files, etc.</a>
 - <a href="#ml-firmwares">Instalación de los firmwares sin RFduino</a>
 - <a href="#ml-dfrobot">De RFduino a DFRobot</a>
+- <a href="#ml-handmade">Fabricando el circuito</a>
 - <a href="#ml-agradecimientos" >Agradecimientos</a>
 
 
@@ -56,7 +57,7 @@ https://youtu.be/NXZVb7ENISs
 
 - Es importante no acoplar los circuitos antes de programar sus firmwares.
 
-- **Atención** antes de programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**). El procedimiento para subir el bootloader en el pic32 es idéntico que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader y después el firmware, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán MCLR, VDD target (Ojo con este pin, deberás conectarlo a 3V3, no a DVDD), Ground, PGD y PGC. Todos los pines están incluidos en el circuito y todos son necesarios.
+- **Atención** antes de programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**). El procedimiento para subir el bootloader en el pic32 es idéntico que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader y después el firmware, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán **MCLR**, **VDD target** (Ojo con este pin, deberás conectarlo a 3V3, no a DVDD), **Ground**, **PGD** y **PGC**. Todos los pines están incluidos en el circuito y todos son necesarios.
 
 - Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND no suelen ser necesarios. Al contrario de lo que sí sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera. Deberás conectar **DTR -> GPIO0** | **RTS -> RESET** | **TXD -> RXD** | **RXD -> TXD** para subir el firmware. [Fuente](https://github.com/espressif/esptool/wiki/ESP8266-Boot-Mode-Selection)
 
@@ -67,6 +68,48 @@ https://youtu.be/NXZVb7ENISs
 ## <a name="ml-dfrobot" style="text-decoration:none; color:black;">De RFduino a DFRobot (TEL0120)</a>
 
 Como hemos dicho, el RFduino está obsoleto, no lo vas a poder encontrar, así que he buscado una solucion alternativa si deseas utilizar el bluetooth. La solución viene de la mano de DFRobot, que vende un [módulo BLE 4.1](https://www.dfrobot.com/product-1647.html?search=tel0120&description=true) con el mismo procesador que utilizaba  RFduino, el ARM Cortex M0. Por lo que el firmware debería funcionar.
+
+
+## <a name="ml-handmade" style="text-decoration:none; color:black;">¿Cómo fabrico el circuito?</a>
+
+Esto es solo un ejemplo de que debes hacer para mandar a fabricar el circuito, en este caso con [pcbway.es](https://www.pcbway.es/setinvite.aspx?inviteid=292190)
+
+1. Dirígete a la página de pcbway, escoge protitpos pcb, añade las dimensiones de la placa (95 x 60), selecciona 2 capas y pulsa "Cotizar".
+
+<p align="center">
+<img src="docs/pcbway1.png" width="700" >
+</p>
+
+
+2. Os aparecerá una página como la siguiente, os explico algunos detalles.
+
+- "Min pista/espacio" debe estar a 6/6 mil y "Min tamaño agujero" debe estar a 0.3 mm aunque el agujero de menor tamaño en el circuito es de 0.35 mm y corresponde a las vias.
+
+- "Máscara de soldadura" se refiere al color de la placa y "Serigrafía" indica el color del texto.
+
+- Cualquier opción en "Acabado superficial", por ejemplo, "Oro por inmersión (ENIG)" incrementará el precio de la placa y aumentará la calidad. No obstante, lo veo innecesario.
+
+- Procesamiento de vias, será por defecto "tenting vias", es decir, vias cubiertas. Así ha sido configurado en el proyecto.
+
+- También es interesante marcar la última opción, "No agregar número extra de producto de pcb a placa".
+
+<p align="center">
+<img src="docs/pcbway2.png" width="800" >
+</p>
+
+
+3. Es necesario marcar la opción "Plantilla SMD", de este modo os llegará una plantilla de aluminio que podreis poner encima de la placa y pasar la pasta de soldadura por encima con una regla o similar. Podeis escoger el tipo de plantilla que mas os guste, "Con marco" o "Sin marco". Los puntos fiduciales se refieren a las vias, la opción "Ninguno" es correcta.
+
+<p align="center">
+<img src="docs/pcbway3.png" width="800" >
+</p>
+
+
+4. Clicaremos en calcular, añadiremos el correo electrónico y ya podemos añadir a la cesta. Mas tarde, deberemos añadir el Gerber y el archivo con los componentes del proyecto. Entonces estará listo para revisión y una vez esta acabe podremos comprarla.
+
+<p align="center">
+<img src="docs/pcbway4.png" width="300" >
+</p>
 
 
 
