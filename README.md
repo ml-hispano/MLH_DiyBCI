@@ -105,7 +105,7 @@ Esto es solo un ejemplo de que debes hacer para mandar a fabricar el circuito, e
 </p>
 
 
-4. Clicaremos en calcular, añadiremos el correo electrónico y ya podemos añadir a la cesta. Mas tarde, deberemos añadir el Gerber y el archivo con los componentes del proyecto. Entonces estará listo para revisión y una vez esta acabe podremos comprarla.
+4. Clicaremos en calcular, añadiremos el correo electrónico y ya podemos añadir a la cesta. Mas tarde, deberemos añadir el Gerber y el archivo el BOM con los componentes del proyecto. Entonces estará listo para revisión y una vez esta acabe podremos comprarla.
 
 <p align="center">
 <img src="docs/pcbway4.PNG" width="300" >
