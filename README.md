@@ -77,7 +77,7 @@ Esto es solo un ejemplo de que debes hacer para mandar a fabricar el circuito, e
 1. Dirígete a la página de pcbway, escoge protitpos pcb, añade las dimensiones de la placa (95 x 60), selecciona 2 capas y pulsa "Cotizar".
 
 <p align="center">
-<img src="docs/pcbway1.png" width="700" >
+<img src="docs/pcbway1.PNG" width="700" >
 </p>
 
 
@@ -94,21 +94,21 @@ Esto es solo un ejemplo de que debes hacer para mandar a fabricar el circuito, e
 - También es interesante marcar la última opción, "No agregar número extra de producto de pcb a placa".
 
 <p align="center">
-<img src="docs/pcbway2.png" width="800" >
+<img src="docs/pcbway2.PNG" width="800" >
 </p>
 
 
 3. Es necesario marcar la opción "Plantilla SMD", de este modo os llegará una plantilla de aluminio que podreis poner encima de la placa y pasar la pasta de soldadura por encima con una regla o similar. Podeis escoger el tipo de plantilla que mas os guste, "Con marco" o "Sin marco". Los puntos fiduciales se refieren a las vias, la opción "Ninguno" es correcta.
 
 <p align="center">
-<img src="docs/pcbway3.png" width="800" >
+<img src="docs/pcbway3.PNG" width="800" >
 </p>
 
 
 4. Clicaremos en calcular, añadiremos el correo electrónico y ya podemos añadir a la cesta. Mas tarde, deberemos añadir el Gerber y el archivo con los componentes del proyecto. Entonces estará listo para revisión y una vez esta acabe podremos comprarla.
 
 <p align="center">
-<img src="docs/pcbway4.png" width="300" >
+<img src="docs/pcbway4.PNG" width="300" >
 </p>
 
 
