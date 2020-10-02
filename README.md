@@ -4,6 +4,7 @@
 <img src="docs/mlhbci.jpg" width="920" >
 </p>
 
+**Actualmente estoy actualizando el dispositivo, en breve estarán disponibles todos los archivos para descargar.**
 Desarrollo de un electroencefalógrafo EEG, basado en **openBCI** para aplicaciones de **Machine Learning**.
 
 
