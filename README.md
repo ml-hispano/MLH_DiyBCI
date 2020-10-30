@@ -4,7 +4,7 @@
 <img src="docs/mlhbci.jpg" width="920" >
 </p>
 
-**Actualmente estoy actualizando el dispositivo, en breve estarán disponibles todos los archivos para descargar.**
+
 Desarrollo de un electroencefalógrafo EEG, basado en **openBCI** para aplicaciones de **Machine Learning**.
 
 
@@ -16,10 +16,15 @@ Este es un proyecto de **Javier Morales** para **[MLHispano](https://bit.ly/2Oqi
 
 
 <p align="center">
+<img src="docs/general.jpg" width="700" >
+</p>
+A la izquierda el BCI y a la derecha el Wifi.
+
+<p align="center">
 <img src="docs/Cyton.jpg" width="250" ><img src="docs/WiFiShield.jpg" width="250">
 </p>
 
-A la izquierda el OpenBCI y a la derecha el WifiShield.(estos no son nuestros dispositivos)
+A la izquierda el OpenBCI y a la derecha el WifiShield. (estos no son nuestros dispositivos)
 
 
 ## Índice
@@ -32,20 +37,20 @@ A la izquierda el OpenBCI y a la derecha el WifiShield.(estos no son nuestros di
 <!-- - <a href="#ml-agradecimientos" >Agradecimientos</a> -->
 <!-- - <a href="#ml-dfrobot">De RFduino a DFRobot</a> -->
 
-## <a name="ml-documentacion" style="text-decoration:none; color:black;">Lista de materiales y documentación</a>
+
+## <a name="ml-documentacion" style="text-decoration:none; color:black;">Esquemas, Gerber files, bootloader, firmware, doc.</a>
 
 
-
-- [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.bootloader.pic32.hex)
-- [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultBoard.pic32.hex)
+- [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.hex)
+- [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultBoard.ino.openbci.hex)
 - [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultWifiShield.2.0.5.bin)
 - [Proyecto del MLH_BCI en Eagle (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Proyecto%20en%20Eagle/MLH_BCI.zip)
-- [Gerber files de MLH_BCI (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Gerber%20files/Gerber%20MLH_BCI.zip)
+- [Gerber files de MLH_BCI (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Gerber%20files/Gerbers_MLH_BCI.zip)
 - [Descargar Interfaz gráfica](https://openbci.com/index.php/downloads)
 - [Documentación general de OpenBCI](https://docs.openbci.com/Getting%20Started/00-Welcome)
 
 
-## <a name="ml-firmwares" style="text-decoration:none; color:black;">Instalación de los firmwares con WifiShield</a>
+## <a name="ml-firmwares" style="text-decoration:none; color:black;">Instalación de los firmwares</a>
 
 Para esta instalación no necesitarás RFduino.
 
@@ -59,17 +64,29 @@ https://youtu.be/NXZVb7ENISs
 [fuente](https://openbci.com/forum/index.php?p=/discussion/1773/is-cyton-programming-possible-without-using-bluetooth-dongle#latest)
 -->
 
-#### Los pasos a seguir serían los siguientes:
 
-- Es importante **no acoplar los circuitos en el momento de programar sus firmwares** o quedarán inservibles.
+- Es importante **no acoplar los circuitos (el bci y la wifi) en el momento de programar sus firmwares** o quedarán inservibles.
 
-- **Atención** antes de programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**). El procedimiento para subir el bootloader en el pic32 es idéntico que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader y después el firmware, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán **MCLR**, **VDD target** (Ojo con este pin, deberás conectarlo a 3V3, no a DVDD para mas seguridad), **Ground**, **PGD** y **PGC**. Todos los pines están incluidos en el circuito y todos son necesarios.
+#### bootloader en el PIC32:
+- El procedimiento para subir el bootloader en el pic32 es distinto que para subir el firmware. Necesitarás de un PICkit3 para subir primero el bootloader, para ello puedes utilizar MPLAB IPE. Los pines a utilizar serán **MCLR**, **VDD target**, **Ground**, **PGD** y **PGC**. Todos los pines están incluidos en el circuito y todos son necesarios. El circuito tiene que tener la fuente de alimentación (MicroUSB) enchufado.
 
->     aportaré imagen en breve
+<p align="center">
+<img src="docs/pic2.jpg" width="350" ><img src="docs/pic.jpg" width="350" >
+</p>
 
-- Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND no suelen ser necesarios. Al contrario de lo que sí sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera. Deberás conectar **DTR a GPIO0** | **RTS a RESET** | **TXD a RXD** | **RXD a TXD** para subir el firmware. [Fuente](https://github.com/espressif/esptool/wiki/ESP8266-Boot-Mode-Selection)
+#### firmware en el PIC32:
+- **Atención** antes de programar el firmware en el **pic32** tienes que subir el cargador de arranque (**bootloader**).
+- Para cargar el firmware en el pic32 necesitarás de un adaptador FTDI, para ello puedes utilizar Arduino IDE, esptool o pic32prog. Los pines a utilizar serán **TXD a RXD** y **RXD a TXD**. El circuito tiene que tener la fuente de alimentación (MicroUSB) enchufado.
 
->     aportaré imagen en breve
+
+#### firmware en WifiShield:
+- Para programar el firmware en el circuito equivalente a wifishield necesitarás un adaptador FTDI para programar el firmware del **esp8266 ESP-12E o ESP-12F**, para ello puedes utilizar esptool-gui, esptool, Arduino IDE, etc. Los pines a utilizar pueden variar, dependiendo de si estás utilizando un esp-12E o un kit development con este esp12E integrado, pero en definitiva VCC y GND suelen ser necesarios. Al igual que sucede con el pin DTR de tu FTDI que quizás encuentres oculto en la parte trasera.
+
+- Deberás conectar **DTR a GPIO0**, **RTS a WIFI-RST**, **TXD a RXD** y **RXD a TXD** para subir el firmware. [Fuente](https://github.com/espressif/esptool/wiki/ESP8266-Boot-Mode-Selection)
+
+<p align="center">
+<img src="docs/ftdi.jpg" width="350" >
+</p>
 
 - Una vez terminado y habiendo acoplado, ahora sí, los circuitos, deberás conectarte a la red con nombre "OpenBCI-XXXX" y desde el navegador acceder a la siguiente dirección: 192.168.4.1 allí podrás agregar la contraseña de la wifi de tu hogar, para que el dispositivo WifiShield se conecte a la wifi de tu hogar, en lugar de ser un punto de acceso. Entonces podrás ejecutar la aplicación [OpenBCI-GUI](https://openbci.com/index.php/downloads).
 
@@ -80,11 +97,12 @@ Como hemos dicho, el RFduino está obsoleto, así que he buscado una solucion al
 -->
 
 
-## <a name="ml-uso" style="text-decoration:none; color:black;">Uso y manejo el circuito</a>
+## <a name="ml-uso" style="text-decoration:none; color:black;">Uso y manejo del circuito</a>
 
-**Sobretodo recordad utilizar como fuente de alimentación, o bien la conexión micro-USB o la batería, nunca ambos.**
+**Sobretodo recordad utilizar como fuente de alimentación, o bien la conexión micro-USB o la batería, nunca ambos a la vez.**
 
->     aportaré imagen en breve
+
+Para empezar a utilizar tu dispositivo, lo primero que tienes que hacer es conectarte al punto de acceso creado por wifishield. Una vez hecho, deberás navegar a la siguiente url 192.168.4.1 y allí podrás introducir los datos de la wifi de tu hogar o trabajo para que wifishield se conecte a ella. Esto es lo único que tienes que hacer antes de poder empezar a disfrutar de tu EEG.
 
 
 ## <a name="ml-handmade" style="text-decoration:none; color:black;">¿Cómo fabrico el circuito?</a>
@@ -129,7 +147,6 @@ Esto es solo un ejemplo de lo que debes hacer para mandar a fabricar el circuito
 <img src="docs/pcbway4.PNG" width="300" >
 </p>
 
->     aportaré imagen en breve
 
 ## <a name="ml-agradecimientos" style="text-decoration:none; color:black;">Agradecimientos</a>
 
