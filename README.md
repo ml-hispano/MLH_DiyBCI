@@ -41,7 +41,7 @@ A la izquierda el OpenBCI y a la derecha el WifiShield. (estos no son nuestros d
 ## <a name="ml-documentacion" style="text-decoration:none; color:black;">Esquemas, Gerber files, bootloader, firmware, doc.</a>
 
 
-- [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20y%20bootloader/UDB32-MX2-DIP.hex)
+- [Bootloader del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/firmwares%20&%20bootloader/UDB32-MX2-DIP.hex)
 - [Firmware del pic32](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultBoard.ino.openbci.hex)
 - [Firmware del esp-12E (wifishield)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Firmwares%20&%20Bootloader/DefaultWifiShield.2.0.5.bin)
 - [Proyecto del MLH_BCI en Eagle (por Javier Morales)](https://github.com/ml-hispano/MLH_DiyBCI/tree/master/Proyecto%20en%20Eagle/MLH_BCI.zip)
