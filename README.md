@@ -1,4 +1,5 @@
 # MLH_BCI
+<b color:"red">Este proyecto está obsoleto, el módulo wifi provoca perdidas de paquetes de información.</b>
 
 <p align="center">
 <img src="docs/mlhbci.jpg" width="920" >
