@@ -1,6 +1,7 @@
 # MLH_BCI
-<b color:"red">Este proyecto está obsoleto, el módulo wifi provoca perdidas de paquetes de información.</b>
-
+> :warning: **¡ADVERTENCIA! PROYECTO OBSOLETO**
+>
+> Este proyecto se considera obsoleto. **Motivo principal:** El módulo Wi-Fi implementado provoca una alta **pérdida de paquetes** de información. Se recomienda migrar a la versión X.
 <p align="center">
 <img src="docs/mlhbci.jpg" width="920" >
 </p>
